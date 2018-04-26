@@ -54,8 +54,13 @@ button.bg-red:focus {
 }
 
 .navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
   font-size: 1.1rem;
-
+  line-height: inherit;
+  white-space: nowrap;
 }
 
 .navbar-red .navbar-text a:hover, .navbar-red .navbar-text a:focus {
